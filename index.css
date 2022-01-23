@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
+}
+.extra-div h2, .servicediv h2{
+    font-size: 0.9 rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+#top-header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('/Images/IMG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path:polygon(100% 0%,100% 78%,51% 100%,0 75%,0 0);
+    position: relative;
+
+}
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index:-1 ;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+}
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 42rem!important;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index:-1 ;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+}.nav-item a{
+    color: #fff;
+}
+
+.header-section{
+    
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.header-section h1{
+    font-family: cursive;
+    font-size: 50px;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.header-buttons a{
+    color: white;
+    text-decoration: none;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    border-radius: 100px;
+    padding: 8px;
+    margin:0 5px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 1rem;
+    
+}
+.header-buttons a:hover{
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding:10px 0 20px 0 ;
+    color: white;
+}
+
+/* Service bg */
+#servicediv{
+    border-radius: 25px;
+    background-color: rgb(241, 232, 232);
+}
+
+
+/* Cards */
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.-extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.cardi:hover{
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.3);
+}
+
+
+.container h1{
+
+    color:black;
+}
+
+/* -------Graphs And Bars --------*/
+.servicediv i{
+   margin-left: 45px;
+   align-items: center;
+   margin-top: 25px;
+  
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.progress{
+    height: 0.6rem!important;
+}
+i{
+    color: #2ffccd;
+}
